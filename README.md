@@ -1,3 +1,3 @@
-# docker-Java-kubernetes-project
-Deploying Java Applications with Docker and Kubernetes
+# Docker-Java-Kubernetes-Project
+Deploying Java Applications with using  Docker and Kubernetes
 
