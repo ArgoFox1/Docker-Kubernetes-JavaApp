@@ -3,7 +3,7 @@
 # GUIDE FOR DEPLOYMENT
 1-**Make sure you had git,kubernetes and docker**
 
->git -v(for git) , docker -v(for docker) , minikube(for kubernetes)
+>git -v(for git) , minikube(for kubernetes) , docker -v(for docker)
 
 2-**Start kubernetes without using docker**
 
@@ -28,16 +28,16 @@
 7-**Go to the shopfront folder and run these codes**
 
 >mvn clean install(building codes)
->>docker build -t shopfront .(creating image)
+>>docker build -t shopfront . (creating image)
 
 8-**Go to the stockmanager folder and run these codes**
 
 >mvn clean install(building codes)
->>docker build -t stockmanager .(creating image)
+>>docker build -t stockmanager . (creating image)
 
 9-**Go to the productcatalogue folder and run these codes**
 >mvn clean install(building codes)
->>docker build -t productcatalogue .(creating image)
+>>docker build -t productcatalogue . (creating image)
 
 10-**After that go to the kubernetes folder and run these codes**
 >kubectl apply -f shopfront-service.yaml(shopfront service and deployment object creating)
@@ -52,3 +52,10 @@
 >minikube service shopfront
 >>minikube service productcatalogue
 >>>minikube service stockmanager
+
+# IN APP PHOTOS
+![SHOPFRONT](https://github.com/ArgoFox1/Docker-K8S-JavaApp/assets/105239243/a2da1e4c-29a0-47de-bc8e-1b6dbecffc93)
+
+![PRODUCTCATALOGUE](https://github.com/ArgoFox1/Docker-K8S-JavaApp/assets/105239243/9788bce4-84f2-47b2-b401-995f2800f3d0)
+
+![STOCKMANAGER](https://github.com/ArgoFox1/Docker-K8S-JavaApp/assets/105239243/81e034b9-973c-4025-bf72-dc69a1a34d4a)
