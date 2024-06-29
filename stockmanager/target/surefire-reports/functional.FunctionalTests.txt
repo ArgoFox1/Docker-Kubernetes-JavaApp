@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: functional.FunctionalTests
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 6, Skipped: 4, Time elapsed: 3.416 s <<< FAILURE! - in functional.FunctionalTests
+Given the application has been initialised with test data  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @6ce2b319
+
+Scenario: Should be able to get a list of all stocks  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @6ce2b319
+
+Scenario: Should be able to get a list of all stocks  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @6ce2b319
+
+Given the application has been initialised with test data  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @6ce2b319 [in thread "main"]
+
+Scenario: Should be able to get the correct SKU for the first stock  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @6ce2b319 [in thread "main"]
+
+Scenario: Should be able to get the correct SKU for the first stock  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @6ce2b319 [in thread "main"]
+

@@ -1,0 +1,7 @@
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/StockManagerApplication.java
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/services/StockService.java
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/config/DataGenerator.java
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/model/Stock.java
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/resources/StockResource.java
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/exceptions/StockNotFoundException.java
+/home/rob/Desktop/Docker-K8S-JavaApp/stockmanager/src/main/java/uk/co/danielbryant/djshopping/stockmanager/repositories/StockRepository.java

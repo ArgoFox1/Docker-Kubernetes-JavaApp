@@ -1,0 +1,6 @@
+/home/rob/Desktop/Docker-K8S-JavaApp/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/configuration/ProductServiceConfiguration.java
+/home/rob/Desktop/Docker-K8S-JavaApp/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/services/ProductService.java
+/home/rob/Desktop/Docker-K8S-JavaApp/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/model/Product.java
+/home/rob/Desktop/Docker-K8S-JavaApp/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/healthchecks/BasicHealthCheck.java
+/home/rob/Desktop/Docker-K8S-JavaApp/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/resources/ProductResource.java
+/home/rob/Desktop/Docker-K8S-JavaApp/productcatalogue/src/main/java/uk/co/danielbryant/djshopping/productcatalogue/ProductServiceApplication.java
