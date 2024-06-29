@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: stockmanager
-        image: localhost:5000/emirhanmetin/stockmanager:latest
+        image: emirhanmetin/stockmanager:latest
         ports:
         - containerPort: 8030
         livenessProbe:
