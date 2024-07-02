@@ -1,4 +1,6 @@
 # Deploying Java Applications with using Docker and Kubernetes
+![kubectl-logo-medium](https://github.com/ArgoFox1/Docker-K8S-JavaApp/assets/105239243/ecc34f05-edc2-46ea-ba85-25a9558954dd)
+![Docker-Logo_Horizontel_279x131 b](https://github.com/ArgoFox1/Docker-K8S-JavaApp/assets/105239243/2c3f991f-1066-4f3f-9221-9b4ae5a9e795)
 
 # GUIDE FOR DEPLOYMENT
 1-**Make sure you had git,kubernetes and docker**
